@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #ececec;
+}
+
+.navbar ul li {
+    font-size: 13px;
+    padding: 0 10px;
+}
