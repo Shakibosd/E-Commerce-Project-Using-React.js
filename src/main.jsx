@@ -5,6 +5,9 @@ import './app.css'
 import LogoSearchBar from './Components/LogoSearchBar/LogoSearchBar'
 import HeroSection from './Components/HeroSection/HeroSection'
 import TopBanner from './Components/TopBanner/TopBanner'
+import FlashSale from './Components/FlashSale/FlashSale'
+import BarazMall from './Components/BarazMall/BarazMall'
+import Footers from './Components/Footers/Footers'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +15,8 @@ createRoot(document.getElementById('root')).render(
     <LogoSearchBar />
     <HeroSection />
     <TopBanner />
+    <FlashSale />
+    <BarazMall />
+    <Footers />
   </StrictMode>,
 )

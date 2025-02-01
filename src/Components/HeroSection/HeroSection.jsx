@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
-                <div className="carousel-inner pt-4">
+                <div className="carousel-inner pt-2">
                     <div className="carousel-item active">
                         <img src="./image/slider2.jpg" height='200px' className="d-block w-100 img-fluid" alt="slider1" />
                     </div>
