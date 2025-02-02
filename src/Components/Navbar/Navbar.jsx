@@ -1,4 +1,6 @@
 import './navbar.css';
+import navbarData from '../../data/Navbar/navbarData';
+
 const Navbar = () => {
     return (
         <div>
@@ -13,27 +15,13 @@ const Navbar = () => {
 
                         </ul>
                         <form className="d-flex nav-er-items gap-4 align-items-center list-unstyled" role="search">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">HOME</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">ABOUT</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">CONTACT</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">PRODUCT</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">REGISTER</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">LOGIN</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page">ভাষা</a>
-                            </li>
+                            {
+                                navbarData.map(data =>
+                                    <li key={data.id} className="nav-item">
+                                        <a className="nav-link active" aria-current="page">{data.item}</a>
+                                    </li>
+                                )
+                            }
                         </form>
                     </div>
                 </div>

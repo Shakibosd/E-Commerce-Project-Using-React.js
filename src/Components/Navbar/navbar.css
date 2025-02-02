@@ -14,3 +14,10 @@
         justify-content: center;
     }
 }
+
+form li:hover{
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
